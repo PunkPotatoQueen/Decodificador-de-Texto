@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Decodificador</title>
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+		<link rel="stylesheet" href="./src/css/estilos.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<header class="header">
+
+			<img src="./src/imagens/logo-criada.png" alt="decodificador de texto" class="logo" />
+			<p class="p-header">
+				Como funciona este site? 
+				<br>Ele criptografa um texto qualquer <br>que você insira da seguite maneira:<br><br>
+				A letra "e" é convertida para "enter" <br>
+				A letra "i" é convertida para "imes"<br>
+				A letra "a" é convertida para "ai"<br>
+				A letra "o" é convertida para "ober"<br>
+				A letra "u" é convertida para "ufat"</p>
+			<img src="./src/imagens/image.png" alt="oracle" class="oracle" />
+
+		</header>
+		<main>
+			<div class="div">
+				<label id="texto" for="texto" class="label">Digite o texto a ser criptografado (apenas letras minúsculas e sem acento):</label>
+				<textarea id="textarea" cols="200" rows="20" class="entrada-texto" style="width: 500px; height: 150px;"></textarea>		
+				<button class="botao" id="botaoCrip">Criptografar</button>
+                <button class="botao" id="botaoDeCrip">Descriptografar</button> <br>
+				<button class="botaoCopiar" id="botaoCopiar">Copiar texto gerado</button>	
+			</div>
+		</main>
+		<footer class="footer">
+			<p class="p-footer">Github:   <a class="linkgit" href="https://github.com/PunkPotatoQueen">https://github.com/PunkPotatoQueen</a></p>
+		</footer>
+		<script src="./src/JavaScript/index.js"></script>
+	</body>
+</html>
